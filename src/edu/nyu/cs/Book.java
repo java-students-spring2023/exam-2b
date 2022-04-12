@@ -12,8 +12,10 @@ package edu.nyu.cs;
  * indicated in the diagram or these instructions is left to your discretion.  You are free 
  * to add additional properties and/or methods, as necessary to meet the requirements.
  * 
- * Your code must include a constructor that accepts as arguments values to assign to
- * each of the isntance properties indicated in the UML diagram.
+ * Your code must include a constructor that accepts as arguments the values to assign to
+ * each of the instance properties indicated in the UML diagram.  The order of the 
+ * constructor's parameter must match the order in which the properties are listed in the 
+ * UML diagram.
  * 
  * Your code must follow object-oriented best-practices:
  *  - all properties should be private, unless there is good reason otherwise.
