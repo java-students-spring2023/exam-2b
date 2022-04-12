@@ -4,19 +4,23 @@ An exam focused on basic programming concepts, not including object-oriented pro
 
 ## Instructions
 
-This exam contains several separate programming challenges. For each one:
+This exam contains several separate source code files. For each one:
 
 - read the instructions written as comments within the file
 - complete the code as instructed
-- all methods should be declared `public static`
 - all lines of printed text should have a line break at the end.
+
+The files are inter-related. Complete them in the following order:
+
+1. `Book.java` and `Book_Test.java`
+1. `AudioBook.java` and `AudioBook_Test.java`
+1. `ArrayTest.java`
 
 ## Folder structure
 
 This project has several important directories:
 
 - `src` - contains the Java source code for the project (i.e. `.java` files)
-- `test` - contains code that will help us determine whether the code you have written works correctly. Do not touch this directory!
 - `bin` - contains the compiled code (i.e. `.class` files)
 - `lib` - contains any dependencies (other libraries of code that the project depends upon to work)
 
