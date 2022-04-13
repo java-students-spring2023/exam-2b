@@ -24,7 +24,7 @@ package edu.nyu.cs;
  *  - getters and setters should be provided for access from external classes.
  *  - setters should perform meaningful validation to prevent nonsensical values.
  */
-public class AudioBook extends Book {
+public class AudioBook {
 
   // -----------------------------------
   // complete the class definition
