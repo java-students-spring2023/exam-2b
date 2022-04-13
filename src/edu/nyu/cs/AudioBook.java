@@ -30,29 +30,4 @@ public class AudioBook extends Book {
   // complete the class definition
   // -----------------------------------
 
-  /**
-   * Constructor
-   * @param author The author of the audiobook
-   * @param title The title of the audiobook
-   * @param year The year the audiobook was written.
-   * @param chapters The chapters of the audiobook.
-   */
-  public AudioBook(String author, String title, int year, String[] chapters) {
-    // use the super class's constructor, rather than redundantly repeat that code.
-    super(author, title, year, chapters);
-  }
-
-  /**
-   * Print all the chapters, one after the other, starting from the first.
-   */
-  public void playAll() {
-    int counter = 0;
-    this.setCurrentChapter(counter);
-    while (this.hasNextChapter()) {
-      String chapter = this.getChapter(counter);
-      System.out.println(chapter);
-      counter++;
-    }
-  }
-
 }
