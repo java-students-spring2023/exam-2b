@@ -4,10 +4,9 @@ package edu.nyu.cs;
  * @author Your Name and Net ID Here
  * @version 0.1
 
- * Create a class named AudioBook that inherits from the Book class and makes use of 
- * the setup code in the parent class's constructor.  Whereas the Book class represents 
- * a printed paper book with chapters as String objects, the AudioBook represents each 
- * chapter as a byte array of audio data.  
+ * Create a class named AudioBook that inherits from the Book class.  Whereas the Book 
+ * class represents a printed paper book with chapters as String objects, the AudioBook 
+ * represents each chapter as a byte array of audio data.
  * 
  * Check the UML diagram for this class located in this repository's 'images' directory.
  * This diagram shows all inherited properties and methods (indicated with ^) as well as 
@@ -24,13 +23,36 @@ package edu.nyu.cs;
  *  - all properties should be private, unless there is good reason otherwise.
  *  - getters and setters should be provided for access from external classes.
  *  - setters should perform meaningful validation to prevent nonsensical values.
- * 
- * In addition to defining the class here, complete the main method in the TestAudioBook class.
  */
-public class AudioBook {
+public class AudioBook extends Book {
 
   // -----------------------------------
-  // complete the class definition here
+  // complete the class definition
   // -----------------------------------
+
+  /**
+   * Constructor
+   * @param author The author of the audiobook
+   * @param title The title of the audiobook
+   * @param year The year the audiobook was written.
+   * @param chapters The chapters of the audiobook.
+   */
+  public AudioBook(String author, String title, int year, String[] chapters) {
+    // use the super class's constructor, rather than redundantly repeat that code.
+    super(author, title, year, chapters);
+  }
+
+  /**
+   * Print all the chapters, one after the other, starting from the first.
+   */
+  public void playAll() {
+    int counter = 0;
+    this.setCurrentChapter(counter);
+    while (this.hasNextChapter()) {
+      String chapter = this.getChapter(counter);
+      System.out.println(chapter);
+      counter++;
+    }
+  }
 
 }

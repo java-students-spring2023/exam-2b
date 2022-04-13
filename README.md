@@ -1,6 +1,6 @@
-# Exam 1
+# Exam 2
 
-An exam focused on basic programming concepts, not including object-oriented programming, incidentally using the Java programming language.
+An exam focused on the pillars of object-oriented programming, using the Java programming language.
 
 ## Instructions
 
@@ -13,7 +13,7 @@ This exam contains several separate source code files. For each one:
 The files are inter-related. Complete them in the following order:
 
 1. `Book.java` and `Book_Test.java`
-1. `AudioBook.java` and `AudioBook_Test.java`
+1. `AudioBook.java`
 1. `ArrayTest.java`
 
 ## Folder structure

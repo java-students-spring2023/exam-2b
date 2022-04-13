@@ -1,0 +1,119 @@
+<mxfile host="65bd71144e">
+    <diagram id="9eIEpMt0e-9fTHPoG6vF" name="Page-1">
+        <mxGraphModel dx="314" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F0F0F0" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#F0F0F0;fontSize=9;fontColor=#000000;strokeColor=none;fillColor=#F0F0F0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="80" width="520" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;&lt;font&gt;-&amp;nbsp;author: String&lt;br&gt;&amp;nbsp;-&amp;nbsp;title: String&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;font&gt;- year: int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- chapters: String[ ]&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getChapter( int n ) : String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;font&gt;&amp;nbsp;+&lt;span&gt;&amp;nbsp;hasNextChapter( ) : boolean&lt;/span&gt;&lt;br&gt;&amp;nbsp;+&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;hasPreviousChapter( ) : boolean&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getNextChapter( ) : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getPreviousChapter( ) : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ equals(other : Book) : &lt;font style=&quot;font-size: 12px&quot;&gt;boolean&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#F0F0F0;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="120" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;exitX=0.855;exitY=0.694;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330.9999999999999" y="229.92000000000002" as="sourcePoint"/>
+                        <mxPoint x="380" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="220"/>
+                            <mxPoint x="370" y="115"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 10px&quot;&gt;returns the chapter at the given index number.&amp;nbsp; If no such chapter exists, returns a blank string&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="100" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="272" as="sourcePoint"/>
+                        <mxPoint x="390" y="255.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="370" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 10px ; line-height: 1&quot;&gt;returns the next available chapter after the most recently viewed chapter.&amp;nbsp; if no chapters have been accessed, returns the first chapter.&amp;nbsp; if all chapters have already been accessed, returns a blank string.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="280" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="16" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="339" y="288" as="sourcePoint"/>
+                        <mxPoint x="390" y="305.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="370" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;font style=&quot;font-size: 10px&quot;&gt;returns the chapter prior to the most recently accessed chapter.&amp;nbsp; if no chapters have been accessed, returns a blank string.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="350" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="18" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="332" y="243" as="sourcePoint"/>
+                        <mxPoint x="390" y="195.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="240"/>
+                            <mxPoint x="370" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 10px ; line-height: 1&quot;&gt;returns true if there is another chapter available after the most recently accessed chapter.&amp;nbsp; if no chapters have been accessed, returns true.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="150" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="21" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="352" y="258" as="sourcePoint"/>
+                        <mxPoint x="390" y="245.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="360" y="258"/>
+                            <mxPoint x="370" y="225"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;font-size: 10px ; line-height: 1&quot;&gt;returns true if there is a chapter available prior to the most recently accessed chapter.&amp;nbsp; if no chapters have been accessed, returns false.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="210" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="24" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="333" y="301" as="sourcePoint"/>
+                        <mxPoint x="390" y="357.99999999999994" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="360" y="301"/>
+                            <mxPoint x="370" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="&lt;font style=&quot;font-size: 10px&quot;&gt;returns true if both books have the same values for all properties indicated in this diagram; false otherwise&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="402" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AudioBook&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;&lt;font&gt;^&amp;nbsp;author: String&lt;br&gt;&amp;nbsp;^&amp;nbsp;title: String&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;font&gt;^ year: int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;^ chapters: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;^ getChapter( n : int ) : String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;font&gt;&amp;nbsp;^&lt;span&gt;&amp;nbsp;hasNextChapter( ) : boolean&lt;/span&gt;&lt;br&gt;&amp;nbsp;^&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;hasPreviousChapter( ) : boolean&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;^ getNextChapter( ) : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;^ getPreviousChapter( ) : String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;^ equals(other : AudioBook) : &lt;font style=&quot;font-size: 10px&quot;&gt;boolean&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ playAll( ) : void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#F0F0F0;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="480" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;fontSize=10;fontColor=#F0F0F0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="450" as="sourcePoint"/>
+                        <mxPoint x="259.9999999999998" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;b&gt;Legend:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;^&lt;/b&gt; indicates an inherited property or method&lt;br&gt;&lt;b&gt;+&lt;/b&gt; indicates a public property or method&lt;br&gt;&lt;b&gt;-&lt;/b&gt; indicates a private property or method.&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;&lt;br&gt;&lt;i&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Anything not indicated in the diagram is left up to the discretion of the programmer.&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#000000;fillColor=default;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#F0F0F0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="460" width="210" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;AudioBook inherits from Book&lt;/span&gt;&lt;br style=&quot;font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="390" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;fontColor=#F0F0F0;strokeColor=#000000;" parent="1" target="31" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="676" as="sourcePoint"/>
+                        <mxPoint x="390" y="666" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="340" y="676"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;font-size: 10px&quot;&gt;prints out the contents of each chapter, one after the other, from the first to the last.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="660" width="210" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
