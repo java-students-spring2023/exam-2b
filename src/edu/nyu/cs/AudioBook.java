@@ -6,7 +6,7 @@ package edu.nyu.cs;
 
  * Create a class named AudioBook that inherits from the Book class.  Whereas the Book 
  * class represents a printed paper book with chapters as String objects, the AudioBook 
- * represents each chapter as a byte array of audio data.
+ * represents each chapter as a String array of audio data.
  * 
  * Check the UML diagram for this class located in this repository's 'images' directory.
  * This diagram shows all inherited properties and methods (indicated with ^) as well as 
